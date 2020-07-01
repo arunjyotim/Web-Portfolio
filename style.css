@@ -1,0 +1,155 @@
+body{
+    font-family: 'Raleway', sans-serif;
+    margin: 0px;
+}
+
+section{
+    height: 500px;
+}
+
+.introduction{
+    background-image: url("images/header-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: cover;
+}
+
+.description{
+    width:40%;
+    float: left;
+    margin-left: 7%;
+    padding-left: 2%;
+    text-align: justify;
+    margin-top: 10%;
+}
+
+.description p{
+    text-align: justify;
+    font-size: 20px;
+}
+
+.description img{
+    float: left;
+    width: 70%;
+}
+.intro-color{
+    color: rebeccapurple;
+    font-size: 40px;
+}
+
+.headimg{
+    width: 50%;
+    float: left;
+    height: 500px;
+}
+
+.button-1{
+    text-decoration: none;
+    font-size: 20px;
+    background-image: linear-gradient(25deg,rgb(197, 0, 197),blue);
+    padding: 10px;
+    color: white;
+    border-radius: 8px;
+}
+
+.button-1:hover{
+    background: rgb(225, 235, 41);
+    color: black;
+}
+
+.button-2{
+    text-decoration: none;
+    font-size: 20px;
+    background-image:repeating-linear-gradient(145deg,rgb(230, 76, 102),rgb(93, 181, 211));
+    padding: 10px;
+    color: white;
+    border-radius: 8px;
+}
+
+.button-2:hover{
+    background:rgb(225, 235, 41);
+    color: black;
+}
+
+.bio-image{
+    background-image: url("images/biography-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.latest-work-bg{
+
+    background-image: url("images/latest-work-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: cover;    
+
+}
+
+.latest-work-heading{
+    text-align: center;
+    font-size: 20px;
+}
+
+.work-image{
+    margin-left:2%;
+    float: left;
+    width:400px;
+}
+
+.work-image img{
+    width: 100%;
+}
+
+.footer-part{
+
+    background-image: url("images/footer-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: cover;
+    
+}
+
+.footer-part img{
+
+    width:100%;
+}
+
+.client-comment{
+
+    text-align: center;
+    
+}
+
+.client-comment h1{
+
+    font-size: 40px;
+    padding: 15px;
+    
+}
+
+.client-comment p{
+
+    font-size: 20px;
+    padding: 30px;
+    margin: 10px;
+    margin-bottom: 40px;
+}
+
+.comment-contact{
+    text-align: center;
+    padding: 15px;
+    color: white;
+}
+
+.comment-box{
+
+    margin: 0 auto;
+    width:700px;
+    background-image:repeating-linear-gradient(35deg,rgb(240, 49, 192),rgb(53, 87, 199));
+    border-radius:8px;
+}
+
+.footer-name{
+    text-align: center;
+}
